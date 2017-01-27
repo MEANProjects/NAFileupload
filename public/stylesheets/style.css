@@ -1,0 +1,26 @@
+body, html {
+    background-color: #2E3B48;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #97B8E0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.txt-center {
+    text-align: center;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "nafileupload",
+  "version": "1.0.0",
+  "description": "simple demo app to upload file from angular frontend to nodejs backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kannach/NAFileupload.git"
+  },
+  "author": "Chandrasekar kannaiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kannach/NAFileupload/issues"
+  },
+  "homepage": "https://github.com/kannach/NAFileupload#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
