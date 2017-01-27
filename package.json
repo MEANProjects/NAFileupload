@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kannach/NAFileupload#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security"
   }
 }

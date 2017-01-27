@@ -13,8 +13,25 @@
 <body ng-app='nafileupload' ng-controller='fileuploadController'>
 <div class="container">
 
-    <h1>{{test}}</h1>
+    <br>
+    <div class="row">
+        <h4>File upload demo Anguar / Node</h4>
+    </div>
 
+    <hr>
+
+    <div class="row">
+        <h5>Browse a file and click upload</h5>
+        <br>
+        <div class="row">
+            <input type="file" onchange="angular.element(this).scope().updateFile(this.files);" />
+        </div>
+        <br>
+        <div class="row">
+            <input type="button" class="button-primary" value="Upload"
+                   ng-click="uploadFile()"/>
+        </div>
+    </div>
 </div>
 </body>
 
