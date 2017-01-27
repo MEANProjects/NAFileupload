@@ -25,3 +25,14 @@ Running frisby test cases for testing backend API
 - open another command window and goto directory frisby
 - run "jasmine-node ."
 
+
+Running protractor test cases
+------------------------------
+
+setup protractor by following the link http://www.protractortest.org/#/
+
+fileupload testing courtesy: http://stackoverflow.com/a/21314337/2119981
+
+-goto protractor directory
+-run "protractor conf.js"
+
