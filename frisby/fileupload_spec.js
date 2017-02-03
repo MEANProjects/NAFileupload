@@ -45,5 +45,6 @@ frisby.create('File upload test using form data')
         'content-length': form.getLengthSync(),
       }
     })
+  .inspectHeaders()  // Prints out all the headers in response
   .expectStatus(200)
   .toss();
